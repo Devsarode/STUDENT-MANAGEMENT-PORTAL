@@ -975,16 +975,15 @@ def aboutUs():
     about_window.title('About Us')
     about_window.geometry("500x300")
 
-    name_label = Label(about_window, text="Ayushman Datta", font=("Varenda", 15, "bold"))
+    name_label = Label(about_window, text="Dev sarode", font=("Varenda", 15, "bold"))
     name_label.place(x=20, y=20)
 
     message = """
-    Email       : ad9466srmist.edu.in \n
-    Contact     : +91 9830302806\n
+    Email       : ds3586srmist.edu.in \n
+    Contact     : +91 86XXXXXXXX\n
     Department  : CTECH\n
-    SAP No      : 53028\n
-    Roll No     : RA2211003011728\n
-    Semester    : 4\n
+    Roll No     : RA2211003011740\n
+    Semester    : X\n
     """
     info = Message(about_window, text=message, width=400, font=("Varenda", 8, "bold"))
     info.place(x=0, y=50)
@@ -1099,4 +1098,5 @@ def window():
 > Complete Advanced Search Function
 > Improve UI
 > Reduce Complexity
+
 '''
